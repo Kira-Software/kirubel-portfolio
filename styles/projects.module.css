@@ -1,0 +1,27 @@
+.card {
+  padding: 100px 200px;
+}
+.card h1 {
+  color: brown;
+}
+.card h2 {
+}
+
+.card img {
+  border: 5px solid black;
+  height: 400px;
+  width: 800px;
+}
+
+@media screen and (max-width: 700px) {
+  .card {
+    padding: 100px 5px;
+  }
+
+  .card img {
+    border: 5px solid black;
+    height: 45%;
+    width: 90%;
+    margin-left: 5%;
+  }
+}

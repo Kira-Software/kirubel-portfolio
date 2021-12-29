@@ -1,0 +1,22 @@
+.certifications {
+  padding: 100px 5rem;
+}
+
+.certificatecard img {
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 500px;
+  width: 700px;
+}
+
+@media screen and (max-width: 700px) {
+  .certifications {
+    padding: 50px 2rem;
+  }
+
+  .certificatecard img {
+    height: 45%;
+    width: 90%;
+    margin-left: 5%;
+  }
+}
