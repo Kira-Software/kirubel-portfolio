@@ -3,20 +3,24 @@ import styles from "../styles/footer.module.css";
 import Link from "next/link";
 
 export default function Footer() {
+  const handlesubmit = () => {};
   return (
     <div className={styles.footer}>
       <div className={styles.contact}>
         <h3>Contact Me</h3>
-        <input type="text" placeholder="enter email address" s />
-        <br /> <br />
-        <textarea
-          type="text"
-          placeholder="Enter your message"
-          rows={5}
-          //  cols={30}
-        />
-        <br /> <br />
-        <button>Submit</button>
+        <form onSubmit={handlesubmit}>
+          <input type="text" placeholder="enter email address" required />
+          <br /> <br />
+          <textarea
+            type="text"
+            placeholder="Enter your message"
+            rows={5}
+            required
+            //  cols={30}
+          />
+          <br /> <br />
+          <button>Submit</button>
+        </form>
       </div>
 
       <div className={styles.links}>
