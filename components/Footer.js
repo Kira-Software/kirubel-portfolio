@@ -7,7 +7,7 @@ export default function Footer() {
     <div className={styles.footer}>
       <div className={styles.contact}>
         <h3>Contact Me</h3>
-        <input type="text" placeholder="email address" s />
+        <input type="text" placeholder="enter email address" s />
         <br /> <br />
         <textarea
           type="text"
