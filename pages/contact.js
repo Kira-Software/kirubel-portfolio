@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import axios from "axios";
 import styles from "../styles/contact.module.css";
 import Head from "next/head";
-export default function contact() {
+
+export default function Contact() {
   const [formdata, setformdata] = useState({
     name: "",
     email: "",
