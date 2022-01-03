@@ -56,7 +56,7 @@ export default function Contact() {
             {" "}
             <img src="https://res.cloudinary.com/dh6muae8v/image/upload/v1640781175/linkedinlogo_lwzvrm.png" />
           </a>
-          <a href="https://t.me/Kira_S_E">
+          <a href="https://t.me/Someeeee1">
             {" "}
             <img src="https://res.cloudinary.com/dh6muae8v/image/upload/v1640781178/telegramlogo_nabnin.png" />
           </a>
