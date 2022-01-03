@@ -6,7 +6,7 @@ export default function Footer() {
   const handlesubmit = () => {};
   return (
     <div className={styles.footer}>
-      <div className={styles.contact}>
+      {/* <div className={styles.contact}>
         <h3>Contact Me</h3>
         <form onSubmit={handlesubmit}>
           <input type="text" placeholder="enter email address" required />
@@ -21,7 +21,7 @@ export default function Footer() {
           <br /> <br />
           <button>Submit</button>
         </form>
-      </div>
+      </div> */}
 
       <div className={styles.links}>
         <ul>
@@ -57,7 +57,7 @@ export default function Footer() {
             {" "}
             <img src="https://res.cloudinary.com/dh6muae8v/image/upload/v1640781175/linkedinlogo_lwzvrm.png" />
           </a>
-          <a href="https://t.me/Kira_S_E">
+          <a href="https://t.me/Someeeee1">
             {" "}
             <img src="https://res.cloudinary.com/dh6muae8v/image/upload/v1640781178/telegramlogo_nabnin.png" />
           </a>

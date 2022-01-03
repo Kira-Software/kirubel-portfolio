@@ -12,7 +12,6 @@ export default function Contact() {
 
   const changer = (e) => {
     setformdata({ ...formdata, [e.target.name]: e.target.value });
-    
   };
   async function handlesubmitform() {
     let config = {
@@ -30,7 +29,6 @@ export default function Contact() {
     } catch (err) {
       console.error(err);
     }
-   
   }
   return (
     <div>
@@ -42,8 +40,8 @@ export default function Contact() {
       <div className={styles.top}>
         <h1>Contact</h1>
         <p>
-          Don’t hesitate to reach out with the contact information below, or
-          send a message using the form. Thank you!
+          Don’t hesitate to reach out with the contact information below. Thank
+          you!
         </p>
       </div>
 
@@ -80,7 +78,19 @@ export default function Contact() {
       </div>
 
       <div className={styles.right}>
-        <form onSubmit={handlesubmitform}>
+        <h1>Send Me a Message</h1>
+        <div className={styles.emailtel}>
+          <a href="mailto: kirubelgirmay21@gmail.com?subject=Feedback">
+            Send Email
+          </a>
+        </div>
+        <br />
+        <div className={styles.emailtel}>
+          <a href="tel: +251947368849">Click to call</a>
+        </div>
+        <br />
+      </div>
+      {/* <form onSubmit={handlesubmitform}>
           <h1>Send Me a Message</h1>
           <label>
             <strong>Name</strong> (required)
@@ -116,8 +126,7 @@ export default function Contact() {
           />
           <br /> <br />
           <button type="submit">Submit</button>
-        </form>
-      </div>
+        </form> */}
     </div>
   );
 }

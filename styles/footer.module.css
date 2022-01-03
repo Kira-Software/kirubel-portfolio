@@ -37,6 +37,7 @@
 .links ul {
   list-style-type: none;
   float: left;
+  margin-left: 20%;
 }
 
 .links li {
